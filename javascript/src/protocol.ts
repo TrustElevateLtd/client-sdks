@@ -44,6 +44,7 @@ export class G1Consent {
   readonly info?: string;
   readonly custom_id?: string;
   readonly callback?: string;
+  readonly payment_session_id?: string
 
   constructor(name: string, subject: string, request_time: Date, customer_id: string) {
     this.name = name;
